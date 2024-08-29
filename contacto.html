@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactenos</title>
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preload" href="../css/contact.css" as="style">
+    <link href="../css/contact.css" rel="stylesheet">
+</head>
+<body>
+  <header>Universidad de Puerto Rico en Arecibo (UPRA)</header>
+    <div class="nav-bg">
+        <nav class="menu">
+          <a href="index.html"><strong>Inicio</strong></a>
+            <a href="about_us.html"><strong>Sobre Nosotros</strong></a>
+            <a href="contacto.html"><strong>Contactenos</strong></a>
+        </nav>
+    </div>
+    <main>
+        <section>
+            <h2>Contactenos</h2>
+      
+            <form class="formulario" action="https://api.web3forms.com/submit" method="POST">
+              <input type="hidden" name="access_key" value="ce671fb0-c655-4cdd-a0d9-d1f26f53ee17">
+              <fieldset>
+                <legend>Porfavor llenar lo siguiente para contactarnos</legend>
+              
+            <div class="contenedor-campos">
+                <div class="campos">
+                  <label>Nombre</label>
+                  <input class="input-text" name="name" type="text" placeholder="Tu Nombre" required>
+              </div>
+      
+              <div class="campos">
+                <label>Telefono</label>
+                <input class="input-text" name="telefono" type="tel" minlength="10" placeholder="Tu Telefono" required>
+              </div>
+      
+              <div class="campos">
+                <label>Email</label>
+                <input class="input-text" name="email" type="email" placeholder="tuemail@email.com" required>
+              </div>
+      
+              <div class="campos">
+                <label>Mensaje</label>
+                <textarea class="input-text"></textarea>
+              </div>
+            </div> <!--.contenedor-campos-->
+              <div class="alinear-derecha flex">
+                <input class="boton w-sm-100" type="submit" value="Enviar">
+              </div>
+      
+            </fieldset>
+            </form>
+        </section>
+
+        <div class="direccion">
+            <hr>
+            <h2>Direccion Fisica</h2>
+            <p>Carr. 653 Km. 0.8</p>
+            <p>Sector Las Dunas</p>
+            <p>Arecibo, P.R.</p>
+            <hr>
+        </div>
+
+        <div class="direccion">
+            <h2>Direccion Postal</h2>
+            <p>P.O. Box 4010</p>
+            <p>Arecibo, P.R. 00614</p>
+            <hr>
+        </div>
+
+        <div class="direccion">
+            <h2>Teléfono</h2>
+            <p>787-815-0000</p>
+        </div>
+
+    <div class="map-container">
+        <div id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.3445102878422!2d-66.7430313262811!3d18.468047770779457!2m3!
+            1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c02e71441a83073%3A0xf81fe612f4f1f3f7!2sUniversidad%20de%20Puerto%20
+            Rico%20-%20Recinto%20de%20Arecibo!5e0!3m2!1ses-419!2spr!4v1724453357020!5m2!1ses-419!2spr" width="400" height="300" 
+            style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+    </main>
+</body>
+</html>
